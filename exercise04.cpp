@@ -15,7 +15,9 @@ int main() {
 // Do not change the print() function
 void print(int len, int wth) {
    cout << "Length : " << len 
-        << ", Width  : " << wth << endl;
+        << " Width  : " << wth << endl;
 }
-
+void input(int len, int wth){
+  std:: cin>>len>>wth;
+}
 // Implement the Input Function here
